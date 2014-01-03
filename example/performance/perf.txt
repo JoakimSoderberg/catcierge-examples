@@ -1,0 +1,22 @@
+
+pi@picat ~/dev/kattlucka/build $
+pi@picat ~/dev/kattlucka/build $ time ./catsnatch_tester --snout ../prototype/HIGGS/snout4.png ../prototype/HIGGS/higgs01.png
+Match!
+
+real	0m7.144s
+user	0m6.850s
+sys		0m0.220s
+
+pi@picat ~/dev/kattlucka/build $ time ./catsnatch_tester --snout ../prototype/HIGGS/smallsnout4.png ../prototype/HIGGS/smallhiggs01.png
+Match!
+
+real	0m1.650s
+user	0m1.550s
+sys		0m0.100s
+
+pi@picat ~/dev/kattlucka/build $ time ./catsnatch_tester --snout ../prototype/HIGGS/rsmallsnout4.png ../prototype/HIGGS/rsmallhiggs01.png
+Match!
+
+real	0m0.479s
+user	0m0.440s
+sys		0m0.030s
